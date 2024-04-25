@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+body{
+    background-color: var(--background-color);
+    height: 100vh;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+}
+
+hr{
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: palegreen;
+    height: 700px;
+    width: 650px;
+    margin-top: 150px;
+    margin-left: 580px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    background-color: palegreen;
+    width: 330px;
+    height: 350px;
+
+}
+
+.perfil{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.image{
+    border-radius: 50%;
+    margin-top: -150px;
+    
+}
+
+.linha{
+    margin-top: 20px;
+    width: 650px;
+}
+
+.sobre{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 250%;
+    padding-bottom: 30px;
+    text-align: center;
+    
+}
+
+p{
+    font-weight: 700;
+    margin-top: 40px;
+}
+
+.name{
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+span{
+    opacity: 70%;
+    margin-left: 15px;
+}
+
+
+.estado, .nome{
+    opacity: 60%;
+}
+
+@media(max-width: 576px){
+
+}
